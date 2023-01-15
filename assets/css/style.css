@@ -35,34 +35,49 @@ a:hover {
 	text-decoration: none;
 }
 .container {
-	width: 1920px;
-	margin: 0 auto;
+  width: 1800px;
+  margin: 0 auto;
 }
 /* <!----HEADER-----> */
 .header {
   background:  linear-gradient(181.06deg, rgba(0, 0, 0, 0.2) 0.91%, rgba(255, 255, 255, 0) 116.71%, rgba(255, 255, 255, 0)), url('../img/Rectangle.jpg') no-repeat center top / cover;
   text-align: center;
+  padding: 54px 0 51px;
 }
 .logo {
+  display: flex;
+}
+.logo__img {
   background: url('../img/footer-logo_white-xs.png');
   width: 46px;
   height: 41px;
 }
+.logo__text {
+ font-size: 18px;
+ font-weight: 900;
+ margin-top: 8px;
+}
+.menu {
+  margin: 0 auto;
+}
 .menu__list {
   display: flex;
-  
 }
 .menu__item a {
   display: block;
   font-size: 18px;
   font-weight: 600;
   margin-right: 65px;
+  line-height: 22px;
 }
-.container_flex {
+.container_center {
   display: flex;
   align-items: center;
 }
 .burger {
+  margin-right: 0px;
+}
+.burger__img {
   background: url('../img/Group3.png');
   width: 35px;
   height: 22px;
