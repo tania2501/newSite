@@ -1,0 +1,70 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #fff;
+	letter-spacing: 0.0215em;
+	position: relative;
+}
+* {
+	box-sizing: border-box;
+}
+ul, li {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	font-weight: 500;
+}
+
+p {
+	line-height: 1.4em;
+	margin: 0;
+}
+a {
+	text-decoration: none;
+	display: block;
+	color: #fff;
+	font-size: 15px;
+	outline: none;
+}
+a:hover {
+	text-decoration: none;
+}
+.container {
+	width: 1920px;
+	margin: 0 auto;
+}
+/* <!----HEADER-----> */
+.header {
+  background:  linear-gradient(181.06deg, rgba(0, 0, 0, 0.2) 0.91%, rgba(255, 255, 255, 0) 116.71%, rgba(255, 255, 255, 0)), url('../img/Rectangle.jpg') no-repeat center top / cover;
+  text-align: center;
+}
+.logo {
+  background: url('../img/footer-logo_white-xs.png');
+  width: 46px;
+  height: 41px;
+}
+.menu__list {
+  display: flex;
+  
+}
+.menu__item a {
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+  margin-right: 65px;
+}
+.container_flex {
+  display: flex;
+  align-items: center;
+}
+.burger {
+  background: url('../img/Group3.png');
+  width: 35px;
+  height: 22px;
+  margin-left: auto;
+}
