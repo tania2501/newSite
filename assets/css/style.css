@@ -4,7 +4,8 @@ body {
 	font-size: 16px;
 	color: #fff;
 	letter-spacing: 0.0215em;
-	position: relative;
+  padding: 0;
+  margin: 0;
 }
 * {
 	box-sizing: border-box;
@@ -70,6 +71,9 @@ a:hover {
   margin-right: 65px;
   line-height: 22px;
 }
+.menu__item a:hover {
+  text-shadow: 2px 2px 2px #000;
+}
 .container_center {
   display: flex;
   align-items: center;
@@ -82,4 +86,51 @@ a:hover {
   width: 35px;
   height: 22px;
   margin-left: auto;
+}
+.offer__text {
+  margin-top: 298px;
+  font-weight: 500;
+  font-size: 30px;
+  letter-spacing: 0.55em;
+  color: rgba(255, 255, 255, 0.7);
+}
+.offer__title {
+  font-weight: 700;
+  font-size: 250px;
+  line-height: 305px;
+  background: linear-gradient(47.06deg, #000000 -3.87%, rgba(255, 255, 255, 0) 36.89%), #FFFFFF;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 324px;
+}
+.offer__nav {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.offer__item {
+  width: 417px;
+  height: 108px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  margin-right: 27px;
+  display: flex;
+  align-items: center;
+}
+.offer__item p {
+  font-size: 20px;
+  font-weight: 700;
+}
+.offer__item a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 0.3);
+}
+.offer__img {
+  margin: 40px 32px 36px 31px;
+}
+.offer__name {
+  text-align: left;
 }
