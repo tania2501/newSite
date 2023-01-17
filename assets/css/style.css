@@ -18,7 +18,7 @@ ul, li {
 h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 	padding: 0;
-	font-weight: 500;
+	font-weight: 700;
 }
 
 p {
@@ -133,4 +133,51 @@ a:hover {
 }
 .offer__name {
   text-align: left;
+}
+.main-text {
+  color: #2D2D2D;
+  text-align: center;
+}
+.main-text p {
+  font-weight: 600;
+  margin: 137px auto 27px;
+}
+.main-text h2 {
+  font-size: 46px;
+  margin-bottom: 111px;
+}
+.main-text span {
+  margin-left: 20px;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+}
+.card {
+  width: 351px;
+  height: 620px;
+  margin-right: 25px;
+}
+.card p {
+  margin: 502px auto 10px 38px;
+  font-size: 32px;
+}
+.card span {
+  color: rgba(255, 255, 255, 0.6);
+  opacity: 0.7;
+  font-weight: 500;
+  font-size: 17px;
+  margin-left: 38px;
+}
+.cards__one {
+  background: url('../img/Rectangle2.jpg') no-repeat center;
+}
+.cards__two {
+  background: url('../img/Rectangle3.jpg') no-repeat center;
+}
+.cards__three {
+  background: url('../img/Rectangle4.jpg') no-repeat center;
+}
+.cards__four {
+  background: url('../img/Rectangle5.jpg') no-repeat center;
 }
