@@ -181,3 +181,32 @@ a:hover {
 .cards__four {
   background: url('../img/Rectangle5.jpg') no-repeat center;
 }
+.wrapper__img {
+  background: url('../img/Rectangle6.jpg') no-repeat center top;
+  width: 872px;
+  height: 643px;
+  border-radius: 10px;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  color: #9B9B9B;
+}
+.wrapper__item {
+  display: flex;
+  margin-bottom: 65px;
+}
+.wrapper__num {
+  font-size: 26px;
+  font-weight: 500;
+  margin: 5px 45px auto 93px;
+}
+.wrapper__text h3 {
+  font-weight: 700;
+  font-size: 32px;
+  color: #3D3D3D;
+  margin-bottom: 20px;
+}
+.wrapper__text p {
+  max-width: 441px;
+}
