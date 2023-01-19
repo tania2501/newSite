@@ -107,7 +107,6 @@ a:hover {
 .offer__nav {
   display: flex;
   justify-content: center;
-  position: relative;
 }
 .offer__item {
   width: 417px;
@@ -209,4 +208,55 @@ a:hover {
 }
 .wrapper__text p {
   max-width: 441px;
+}
+.main-partner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-partner a {
+  margin-right: 128px;
+  margin-bottom: 188px;
+}
+.feedback {
+  background: url('../img/MaskGroup.jpg') no-repeat center top;
+  width: 1660px;
+  height: 544px;
+}
+.feedback__card {
+  display: flex;
+  justify-content: center;
+}
+.feedback__item {
+  width: 350px;
+  height: 206px;
+  background-color: #fff;
+  margin: 148px 25px;
+  position: relative;
+  border-radius: 10px;
+}
+.feedback__item span {
+  position: absolute;
+  bottom: -17px;
+  left: 36px;
+}
+.feedback__span {
+  width: 0;
+  height: 0;
+  border-left: 16px solid transparent;
+  border-right: 16px solid transparent;
+  border-top: 24px solid #fff;
+}
+.feedback__symbol {
+  font-weight: 800;
+  font-size: 60px;
+  color: #FF9921;
+  opacity: 0.4;
+  margin: 15px auto auto 32px;
+}
+.feedback__lorem {
+  font-size: 12px;
+  color: #6D6D6D;
+  line-height: 20px;
+  margin: -25px 12px auto 37px;
 }
